@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "a65d9529b34d48a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e759ada7fb4cc5d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "747c34f49e39ff0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Como deletar um arquivo do repositório.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a66cfb0c43513002",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dba6bba0d57326a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24ae8dd920e09c47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e826fe95791ac11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b9b6c3fb0069c59",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4738b18f04d998c",
+    "type": "split",
+    "children": [
+      {
+        "id": "141f3e05bdc5f09f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d93af2f6b14ea59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Como deletar um arquivo do repositório.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfdf56c5eab1fa62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Como deletar um arquivo do repositório.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "928acafa19faf611",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8b9c025d45307ca0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Como deletar um arquivo do repositório.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "747c34f49e39ff0e",
+  "lastOpenFiles": [
+    "Como atualizar um projeto.md",
+    "Como restaurar um arquivo deletado no repositório.md",
+    "Como enviar um projeto no GitHub.md",
+    "Como deletar um arquivo do repositório.md",
+    "source/Pasted image 20231227095919.png",
+    "source/Pasted image 20231227095816.png",
+    "source/Pasted image 20231227095211.png",
+    "source/Pasted image 20231227095011.png",
+    "source",
+    "source/Pasted image 20231227092941.png"
+  ]
+}

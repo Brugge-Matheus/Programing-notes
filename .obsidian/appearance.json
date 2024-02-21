@@ -1,0 +1,11 @@
+{
+  "accentColor": "#000000",
+  "baseFontSize": 14,
+  "theme": "obsidian",
+  "cssTheme": "Tokyo Night",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "translucency": false,
+  "nativeMenus": true
+}
