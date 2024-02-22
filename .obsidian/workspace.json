@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "GitHub/Comandos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c564b4c8eabc4df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32a397755169849b",
+  "active": "9c564b4c8eabc4df",
   "lastOpenFiles": [
     "GitHub/Comandos.md",
-    "GitHub/Como atualizar um projeto.md",
     "JavaScript/Propriedades e JavaScript Moderno.md",
+    "conflict-files-obsidian-git.md",
+    "GitHub/Como atualizar um projeto.md",
     "JavaScript/Requisições.md",
     "JavaScript/Validação de formulários.md",
     "JavaScript/Tricks.md",

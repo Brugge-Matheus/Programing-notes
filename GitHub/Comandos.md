@@ -37,5 +37,18 @@
 
 => `git merge NomeDaBranch` - Junta uma branch com outra branch.
 
+<<<<<<< HEAD
 => `git branch -d NomeDaBranch` - Deleta uma branch local
 => `git push origin --delete nomeDoBranchRemoto` - Deleta uma branch remota
+=======
+=> `git merge NomeDaBranch` - Deleta uma branch.....
+
+## Corrigindo mensagem de commit
+
+=> `git log --oneline` - Lista os commits
+
+=> `git commit --amend -m "#"` - Troca a mensagem do commit Head
+
+
+## Voltando para commits
+>>>>>>> origin/main
