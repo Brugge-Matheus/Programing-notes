@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/Comandos.md"
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md"
               }
             }
           }
@@ -159,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cd099bc7fa1ec8f",
+  "active": "32a397755169849b",
   "lastOpenFiles": [
-    "JavaScript/Propriedades e JavaScript Moderno.md",
     "GitHub/Comandos.md",
+    "JavaScript/Propriedades e JavaScript Moderno.md",
     "GitHub/Como atualizar um projeto.md",
     "JavaScript/Requisições.md",
     "JavaScript/Validação de formulários.md",
