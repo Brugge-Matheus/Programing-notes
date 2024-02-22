@@ -37,11 +37,8 @@
 
 => `git merge NomeDaBranch` - Junta uma branch com outra branch.
 
-<<<<<<< HEAD
 => `git branch -d NomeDaBranch` - Deleta uma branch local
 => `git push origin --delete nomeDoBranchRemoto` - Deleta uma branch remota
-=======
-=> `git merge NomeDaBranch` - Deleta uma branch.....
 
 ## Corrigindo mensagem de commit
 
@@ -49,6 +46,24 @@
 
 => `git commit --amend -m "#"` - Troca a mensagem do commit Head
 
+## Voltando para commits com revert
+*Volta para a branch selecionada mantendo o histórico*
 
-## Voltando para commits
->>>>>>> origin/main
+=> `git revert HEAD --no-edit` - volta para o ultimo commit feito mantendo o histórico
+
+
+## Voltando para commits com reset
+*Reseta completamente para a branch selecionada sem salvar histórico*
+
+=> `git reset "códigoDoCommit"` - Volta para o commit selecionado sem manter o histórico
+
+=> `git stash` - Cancela todas as alterações que não foram commitadas ainda
+
+
+## Diferença entre commits
+
+=> `git diff codigoCommit1 codigoCommit2` - Mostra as diferenças entre os dois commits que foram selecionados 
+
+##
+
+
