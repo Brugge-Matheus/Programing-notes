@@ -32,13 +32,15 @@
 
 => `git switch NomeDaBranch` - Troca para a branch selecionada.
 
-*Neste momento as alterações feitas em uma branch não estara presente na outra a não ser que você de o comando*
+*Neste momento as alterações feitas em uma branch não estará presente na outra a não ser que você de o comando*
 ## Fazendo Merge
 
 => `git merge NomeDaBranch` - Junta uma branch com outra branch.
 
 => `git branch -d NomeDaBranch` - Deleta uma branch local
 => `git push origin --delete nomeDoBranchRemoto` - Deleta uma branch remota
+
+=> `git merge --abort` - Aborta um merge que esta em processo
 
 ## Corrigindo mensagem de commit
 
@@ -64,6 +66,14 @@
 
 => `git diff codigoCommit1 codigoCommit2` - Mostra as diferenças entre os dois commits que foram selecionados 
 
-##
 
+## Resolvendo conflito de merge
+### Button changes 
+ ![[Pasted image 20240222230038.png]]
+=> `Accept Current Changes` - 
+=> `Accept Incoming Changes` - Aceita somente as novas funcionalidades
+=> `Accept Both Changes` - junta as duas modificações de harmoniza o código 
+=> `Compare Changes` - 
+
+=> Depois de resolver os conflitos faça commit das alterações
 

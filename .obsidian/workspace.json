@@ -129,11 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 282.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1fa08cc71b63f88",
+  "active": "10d898853db0f006",
   "lastOpenFiles": [
+    "source_geral/Pasted image 20240222230038.png",
     "GitHub/Comandos.md",
     "conflict-files-obsidian-git.md",
     "JavaScript/Propriedades e JavaScript Moderno.md",
