@@ -34,6 +34,8 @@
 => `parseInt(variavel)` - Transforma uma variável em número inteiro 
 => `parseFloat(variavel)` - Transforma uma variável em número flutuante (números com virgula).
 
+=> `isInteger(variaveld)` - Verifica se um número é inteiro e retorna um valor boolean 
+
 
 ## Manipulação de Arrays
 => `.toString` - Transforma um array em string.
@@ -102,7 +104,7 @@ Ex:
 
 
 
-## Matemática
+## Math
 ==> Utilizando a classe `Math...` podemos fazer operações matemáticas gerais.
 ![[Pasted image 20240204024625.png]]
 

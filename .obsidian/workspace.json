@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/Comandos.md"
+                "file": "JavaScript/Propriedades e JavaScript Moderno.md"
               }
             }
           }
@@ -147,32 +147,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10d898853db0f006",
+  "active": "f1fa08cc71b63f88",
   "lastOpenFiles": [
-    "source_geral/Pasted image 20240222230038.png",
-    "GitHub/Comandos.md",
-    "conflict-files-obsidian-git.md",
-    "JavaScript/Propriedades e JavaScript Moderno.md",
-    "GitHub/Como atualizar um projeto.md",
-    "JavaScript/Requisições.md",
-    "JavaScript/Validação de formulários.md",
-    "JavaScript/Tricks.md",
-    "JavaScript/DOM.md",
-    "JavaScript/Eventos em DOM.md",
-    "JavaScript/Geral.md",
+    "source_geral/Pasted image 20240225202444.png",
+    "source_geral/Pasted image 20240225201738.png",
+    "Pasted image 20240225202207.png",
+    "source_geral/Pasted image 20240225202251.png",
+    "source_geral/Pasted image 20240225202218.png",
+    "JavaScript/Laços de repetição.md",
+    "Pasted image 20240225201556.png",
     "JavaScript/POO.md",
+    "JavaScript/Propriedades e JavaScript Moderno.md",
+    "JavaScript/Requisições.md",
+    "JavaScript/Tricks.md",
+    "JavaScript/Validação de formulários.md",
+    "JavaScript/Geral.md",
+    "JavaScript/Eventos em DOM.md",
+    "JavaScript/DOM.md",
+    "GitHub/Comandos.md",
+    "source_geral/Pasted image 20240222230038.png",
+    "conflict-files-obsidian-git.md",
+    "GitHub/Como atualizar um projeto.md",
     "GitHub/source/Pasted image 20231227092941 1.png",
     "HTML/Formulários em HTML/Codigo Html - Formulários e input's.md",
     "HTML/Geral.md",
     "source_geral/Pasted image 20240213155026.png",
     "source_geral/Pasted image 20240213154732.png",
     "source_geral/Pasted image 20240213154723.png",
-    "source_geral/Pasted image 20240213154645.png",
-    "source_geral/Pasted image 20240213123540.png",
-    "source_geral/Pasted image 20240213123538.png",
-    "source_geral/Pasted image 20240213103717.png",
-    "source_geral/Pasted image 20240213100004.png",
-    "source_geral/Pasted image 20240213095948.png",
     "GitHub/Como deletar um arquivo do repositório.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",
