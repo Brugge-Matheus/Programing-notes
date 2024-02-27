@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e20fd6667e21ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Geral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "SQL/Geral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "SQL/Geral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md"
+                "file": "SQL/Geral.md"
               }
             }
           }
@@ -147,8 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1fa08cc71b63f88",
+  "active": "10d898853db0f006",
   "lastOpenFiles": [
+    "JavaScript/Propriedades e JavaScript Moderno.md",
+    "SQL/Geral.md",
+    "SQL",
     "source_geral/Pasted image 20240225202444.png",
     "source_geral/Pasted image 20240225201738.png",
     "Pasted image 20240225202207.png",
@@ -157,7 +173,6 @@
     "JavaScript/Laços de repetição.md",
     "Pasted image 20240225201556.png",
     "JavaScript/POO.md",
-    "JavaScript/Propriedades e JavaScript Moderno.md",
     "JavaScript/Requisições.md",
     "JavaScript/Tricks.md",
     "JavaScript/Validação de formulários.md",
@@ -173,7 +188,6 @@
     "HTML/Geral.md",
     "source_geral/Pasted image 20240213155026.png",
     "source_geral/Pasted image 20240213154732.png",
-    "source_geral/Pasted image 20240213154723.png",
     "GitHub/Como deletar um arquivo do repositório.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",
