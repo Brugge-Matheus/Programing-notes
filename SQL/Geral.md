@@ -43,36 +43,36 @@ TinyBlob, Blob, MediumBlob, LongBlob
 
 ## Comandos gerais
 
-`select * from nomeDaTabela` - Seleciona e mostra todos os itens de uma tabela
+`SELECT * FROM nomeDaTabela` - Seleciona e mostra todos os itens de uma tabela
 
-`describe NomeDaTabela` - Mostra a estrutura da tabela
+`DESCRIBE NomeDaTabela` - Mostra a estrutura da tabela
 
 ## Criando bd, table e parâmetros
 
 ### parâmetros
-==> `if not exists` - Faz algo se aquilo não existir
+==> `IF NOT EXISTS` - Faz algo se aquilo não existir
 ![[Pasted image 20240227211825.png]]
 
-==> `if exists` - Faz algo se aquilo existir
+==> `IF EXISTS` - Faz algo se aquilo existir
 ![[Pasted image 20240227211806.png]]
 ### criação
 
-=> `create database NomeDoBanco` - Cria um bd 
+=> `CREATE DATABASE NomeDoBanco` - Cria um bd 
 
-=> `use NomeDoBanco` - Utiliza um bd criado
+=> `USE NomeDoBanco` - Utiliza um bd criado
 
-=> `create table NomeDaTabela ()` - Cria um tabela sql
+=> `CREATE TABLE NomeDaTabela ()` - Cria um tabela sql
 
 ## Inserindo dados
 
 *Caso a ordem de inserção dos itens seja a mesma ordem de construção da tabela não precisamos definir a ordem dos itens*
-=> `insert into NomeDaTabela values (dados que deseja inserir);`
+=> `INSERT INTO NomeDaTabela VALUES (dados que deseja inserir);`
 
 *Caso não seja a mesma ordem precisamos definir os registros base antes*
-=> `insert into NomeDaTabela (dados base da tabela) values (dados que deseja inserir);`
+=> `INSERT INTO NomeDaTabela (dados base da tabela) VALUES (dados que deseja inserir);`
 
 *Podemos inserir varios itens de uma vez só*
-=> `insert into NomeDaTabela values (dados que deseja inserir), (dados que deseja inserir);`
+=> `INSERT INTO NomeDaTabela VALUES (dados que deseja inserir), (dados que deseja inserir);`
 
 
 => `(id) (default)` - Caso tenhamos passado itens como `auto_increment` podemos simplesmente não defini-los ou utilizar default.
@@ -84,17 +84,17 @@ TinyBlob, Blob, MediumBlob, LongBlob
 ## Alterar dados na tabela
 *Comando principal para fazer alteração em tabelas, sempre adicionada antes das funções desejadas*
 
-=> `alter table nomeDaTabela`
+=> `ALTER TABLE nomeDaTabela`
 
 ### Adicionar coluna
 
-=> `add column nomeDoCampo tipoDeDado;` - Adiciona um campo a uma tabela selecionada
+=> `ADD COLUMN nomeDoCampo tipoDeDado;` - Adiciona um campo a uma tabela selecionada
 ![[Pasted image 20240227201940.png]]
 
-=> `add column nomeDoCampo tipoDeDado after nomeDoCampo`; - Adiciona uma coluna após outra coluna escolhida, assim manipulando a ordem dos itens na tabela
+=> `ADD COLUMN nomeDoCampo tipoDeDado AFTER nomeDoCampo`; - Adiciona uma coluna após outra coluna escolhida, assim manipulando a ordem dos itens na tabela
 ![[Pasted image 20240227201954.png]]
 
-=> `add nomeDoCampo tipoDeDado firts;` - Adiciona um item por primeiro na tabela
+=> `ADD COLUMN nomeDoCampo tipoDeDado FIRST;` - Adiciona um item por primeiro na tabela
 ![[Pasted image 20240227202613.png]]
 
 
@@ -102,31 +102,53 @@ TinyBlob, Blob, MediumBlob, LongBlob
 ### Remover coluna
 *Por padrão o `drop` é utilizado para apagar itens no sql*
 
-=> `drop column nomeDoCampo;` - Remove uma coluna de uma tabela criada
+=> `DROP COLUMN nomeDoCampo;` - Remove uma coluna de uma tabela criada
 ![[Pasted image 20240227202004.png]]
 
 ### Modificar a estrutura
 
-=> `drop table nomeDaTabela` - Apaga uma tabela
+=> `DROP TABLE nomeDaTabela` - Apaga uma tabela
 ![[Pasted image 20240227211326.png]]
 
-=> `modify column nomeDaCampo tipoDeDadoeModificação ...;` - Altera a estrutura de uma coluna, como o tipo de dado as propriedades e etc...
+=> `MODIFY COLUMN nomeDaCampo tipoDeDadoeModificação ...;` - Altera a estrutura de uma coluna, como o tipo de dado as propriedades e etc...
 ![[Pasted image 20240227205525.png]]
 
-=> `change column nomeAtualDaColuna novoNomeDaColuna ...;` - Muda o nome de uma coluna para outro
+=> `CHANGE COLUMN nomeAtualDaColuna novoNomeDaColuna ...;` - Muda o nome de uma coluna para outro
 ![[Pasted image 20240227205631.png]]
 
-=> `rename to novoNomeDaTabela` - Renomeia a tabela toda
+=> `RENAME TO novoNomeDaTabela` - Renomeia a tabela toda
 ![[Pasted image 20240227205749.png]]
 
-==> `add primary key (#);` - Podemos definir uma coluna como a primary key dessa forma
+==> `ADD PRIMARY KEY (#);` - Podemos definir uma coluna como a primary key dessa forma
 ![[Pasted image 20240227211226.png]]
 
 
 ## UPDATE
-*Serve para atualizar registros e campos existentes no banco de dados*
+*Serve para atualizar registros e campos existentes em uma tabela no banco de dados*
 
-`UPDATE nomeDaTabela set nomeDoCampo = 'alteraçãoDesejada' WHERE = 'condicional'`
+=> `UPDATE nomeDaTabela set nomeDoCampo = 'alteraçãoDesejada' WHERE = 'condicional'` - Selecionando uma tabela depois configurando oque deseja alterar e depois fazendo a condicional podemos alterar um registro existente
+
+![[Pasted image 20240228140342.png]]
+
+=> `LIMIT number` - Utilizando o `limit` e depois um número, podemos limitar as alterações a um número específico de números
+![[Pasted image 20240228140859.png]]
+
+
+## DELETE
+*Serve para deletar registros e campos existentes em uma tabela no banco de dados*
+
+=> `DELETE FROM nomeDaTabela WHERE condicional` - Definindo a tabela e depois a condicional podemos apagar registros de uma tabela
+![[Pasted image 20240228141130.png]]
+
+=> `LIMIT number` - Também podemos usar o `limit` para limitar os registros que irão ser deletados
+![[Pasted image 20240228141248.png]]
+
+
+## TRUNCATE
+*Serve para apagar todos os registros de uma tabela de uma vez só*
+
+`TRUNCATE TABLE nomeDaTabela` - Apaga todos os registro da tabela
+`TRUNCATE nomeDaTabela`
 
 ## Key Primary
 *São campos únicos que definem *
