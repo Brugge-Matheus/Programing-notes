@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1fa08cc71b63f88",
+            "id": "6e20fd6667e21ac5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Propriedades e JavaScript Moderno.md",
+                "file": "SQL/Geral.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6e20fd6667e21ac5",
+            "id": "f93f4af077bcc65d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5
   },
   "right": {
     "id": "d8c563a207d94e7c",
@@ -160,19 +160,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e20fd6667e21ac5",
+  "active": "f93f4af077bcc65d",
   "lastOpenFiles": [
-    "source_geral/Pasted image 20240227143607.png",
-    "JavaScript/Propriedades e JavaScript Moderno.md",
+    "UPDATE, DELETE, TRUNCATE.md",
     "SQL/Geral.md",
+    "source_geral/Pasted image 20240227211825.png",
+    "source_geral/Pasted image 20240227211806.png",
+    "source_geral/Pasted image 20240227211326.png",
+    "source_geral/Pasted image 20240227211226.png",
+    "source_geral/Pasted image 20240227205749.png",
+    "source_geral/Pasted image 20240227205631.png",
+    "source_geral/Pasted image 20240227205525.png",
+    "source_geral/Pasted image 20240227202613.png",
+    "source_geral/Pasted image 20240227202004.png",
+    "JavaScript/Propriedades e JavaScript Moderno.md",
+    "source_geral/Pasted image 20240227201954.png",
     "SQL",
-    "source_geral/Pasted image 20240225202444.png",
-    "source_geral/Pasted image 20240225201738.png",
-    "Pasted image 20240225202207.png",
-    "source_geral/Pasted image 20240225202251.png",
-    "source_geral/Pasted image 20240225202218.png",
     "JavaScript/Laços de repetição.md",
-    "Pasted image 20240225201556.png",
     "JavaScript/POO.md",
     "JavaScript/Requisições.md",
     "JavaScript/Tricks.md",
@@ -181,14 +185,10 @@
     "JavaScript/Eventos em DOM.md",
     "JavaScript/DOM.md",
     "GitHub/Comandos.md",
-    "source_geral/Pasted image 20240222230038.png",
     "conflict-files-obsidian-git.md",
     "GitHub/Como atualizar um projeto.md",
-    "GitHub/source/Pasted image 20231227092941 1.png",
     "HTML/Formulários em HTML/Codigo Html - Formulários e input's.md",
     "HTML/Geral.md",
-    "source_geral/Pasted image 20240213155026.png",
-    "source_geral/Pasted image 20240213154732.png",
     "GitHub/Como deletar um arquivo do repositório.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",

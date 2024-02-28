@@ -1,4 +1,10 @@
 ## Conceitos
+
+### geral
+
+=> *Registro ou Tupla* - A linha da tabela de forma (horizontal)
+
+=> *Campo ou Atributos* -  A coluna da tabela (vertical)
 ### DDL - Data Definition Language
 ==> `create database, create table`
 
@@ -41,7 +47,15 @@ TinyBlob, Blob, MediumBlob, LongBlob
 
 `describe NomeDaTabela` - Mostra a estrutura da tabela
 
-## Criando bd e table 
+## Criando bd, table e parâmetros
+
+### parâmetros
+==> `if not exists` - Faz algo se aquilo não existir
+![[Pasted image 20240227211825.png]]
+
+==> `if exists` - Faz algo se aquilo existir
+![[Pasted image 20240227211806.png]]
+### criação
 
 => `create database NomeDoBanco` - Cria um bd 
 
@@ -66,6 +80,53 @@ TinyBlob, Blob, MediumBlob, LongBlob
 ### Ex banco
 ![[Pasted image 20240227143607.png]]
 
+
+## Alterar dados na tabela
+*Comando principal para fazer alteração em tabelas, sempre adicionada antes das funções desejadas*
+
+=> `alter table nomeDaTabela`
+
+### Adicionar coluna
+
+=> `add column nomeDoCampo tipoDeDado;` - Adiciona um campo a uma tabela selecionada
+![[Pasted image 20240227201940.png]]
+
+=> `add column nomeDoCampo tipoDeDado after nomeDoCampo`; - Adiciona uma coluna após outra coluna escolhida, assim manipulando a ordem dos itens na tabela
+![[Pasted image 20240227201954.png]]
+
+=> `add nomeDoCampo tipoDeDado firts;` - Adiciona um item por primeiro na tabela
+![[Pasted image 20240227202613.png]]
+
+
+
+### Remover coluna
+*Por padrão o `drop` é utilizado para apagar itens no sql*
+
+=> `drop column nomeDoCampo;` - Remove uma coluna de uma tabela criada
+![[Pasted image 20240227202004.png]]
+
+### Modificar a estrutura
+
+=> `drop table nomeDaTabela` - Apaga uma tabela
+![[Pasted image 20240227211326.png]]
+
+=> `modify column nomeDaCampo tipoDeDadoeModificação ...;` - Altera a estrutura de uma coluna, como o tipo de dado as propriedades e etc...
+![[Pasted image 20240227205525.png]]
+
+=> `change column nomeAtualDaColuna novoNomeDaColuna ...;` - Muda o nome de uma coluna para outro
+![[Pasted image 20240227205631.png]]
+
+=> `rename to novoNomeDaTabela` - Renomeia a tabela toda
+![[Pasted image 20240227205749.png]]
+
+==> `add primary key (#);` - Podemos definir uma coluna como a primary key dessa forma
+![[Pasted image 20240227211226.png]]
+
+
+## UPDATE
+*Serve para atualizar registros e campos existentes no banco de dados*
+
+`UPDATE nomeDaTabela set nomeDoCampo = 'alteraçãoDesejada' WHERE = 'condicional'`
 
 ## Key Primary
 *São campos únicos que definem *
