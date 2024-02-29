@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f93f4af077bcc65d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Geral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8fa256892f6d0a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Geral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5
   },
   "right": {
     "id": "d8c563a207d94e7c",
@@ -147,21 +172,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10d898853db0f006",
+  "active": "e8fa256892f6d0a6",
   "lastOpenFiles": [
+    "Php_MyAdmin.md",
+    "SQL/Geral.md",
     "source_geral/Pasted image 20240228141248.png",
     "source_geral/Pasted image 20240228141130.png",
     "source_geral/Pasted image 20240228140859.png",
     "source_geral/Pasted image 20240228140342.png",
+    "UPDATE, DELETE, TRUNCATE.md",
     "source_geral/Pasted image 20240227211825.png",
     "source_geral/Pasted image 20240227211806.png",
     "source_geral/Pasted image 20240227211326.png",
     "source_geral/Pasted image 20240227211226.png",
     "source_geral/Pasted image 20240227205749.png",
     "source_geral/Pasted image 20240227205631.png",
-    "source_geral/Pasted image 20240227205525.png",
     "JavaScript/Propriedades e JavaScript Moderno.md",
-    "SQL/Geral.md",
     "SQL",
     "JavaScript/Laços de repetição.md",
     "JavaScript/POO.md",
