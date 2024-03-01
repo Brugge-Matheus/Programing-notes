@@ -43,8 +43,6 @@ TinyBlob, Blob, MediumBlob, LongBlob
 
 ## Comandos gerais
 
-`SELECT * FROM nomeDaTabela` - Seleciona e mostra todos os itens de uma tabela
-
 `DESCRIBE NomeDaTabela` - Mostra a estrutura da tabela
 
 ## Criando bd, table e parâmetros
@@ -147,9 +145,44 @@ TinyBlob, Blob, MediumBlob, LongBlob
 ## TRUNCATE
 *Serve para apagar todos os registros de uma tabela de uma vez só*
 
-`TRUNCATE TABLE nomeDaTabela` - Apaga todos os registro da tabela
-`TRUNCATE nomeDaTabela`
+=> `TRUNCATE TABLE nomeDaTabela` - Apaga todos os registro da tabela
+=> `TRUNCATE nomeDaTabela`
 
+
+## SELECT
+*Serve para buscar itens em uma base de dados*
+
+=> `SELECT * FROM nomeDaTabela` - Seleciona e mostra todos os itens de uma tabela
+
+=> `SELECT nomeDaColunan FROM nomeDaTabela` - Seleciona quais as colunas que deseja fazer a busca
+
+==> `ORDER BY colunaDaTabela` - item opcional que seleciona a ordenação que sua busca vai ter
+
+=> `asc` `desc` utilizado junto ao order by para definir se a ordem vai ser crescente ou não
+![[Pasted image 20240229215148.png]]
+
+### Condicional
+
+=> `WHERE condicional...` - também se pode utilizar o where junto ao select para fazer uma condicional de busca
+![[Pasted image 20240229215401.png]]
+
+=> `WHERE IN (#,#)` - Faz a condicional baseado nos itens que estão definidos pelo in 
+![[Pasted image 20240229215741.png]]
+
+=> `WHERE BETWEEN condicional1 (operadorLógico) condicional2` - Faz a busca entre um item e outro
+![[Pasted image 20240229220017.png]]
+
+#### Operadores Lógicos
+*Operados a serem utilizados dentro de uma condicional (WHERE)*
+
+==> `OR` - Significa Ou e seleciona um item com uma condição ou outra
+==> `AND` - Significa E e selecionado um item com uma condição e outra
+
+=> `>` - Maior
+=> `>=` = Maior igual
+=> `<` - Menor
+=> `<=` - Menor igual
+=> `!=` - Diferente
 ## Key Primary
 *São campos únicos que definem *
 
