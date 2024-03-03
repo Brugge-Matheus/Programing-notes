@@ -49,10 +49,10 @@ TinyBlob, Blob, MediumBlob, LongBlob
 
 ### parâmetros
 ==> `IF NOT EXISTS` - Faz algo se aquilo não existir
-![[Pasted image 20240227211825.png]]
+![[Pasted image 20240303124901.png]]
 
 ==> `IF EXISTS` - Faz algo se aquilo existir
-![[Pasted image 20240227211806.png]]
+![[Pasted image 20240303124947.png]]
 ### criação
 
 => `CREATE DATABASE NomeDoBanco` - Cria um bd 
@@ -169,8 +169,54 @@ TinyBlob, Blob, MediumBlob, LongBlob
 => `WHERE IN (#,#)` - Faz a condicional baseado nos itens que estão definidos pelo in 
 ![[Pasted image 20240229215741.png]]
 
-=> `WHERE BETWEEN condicional1 (operadorLógico) condicional2` - Faz a busca entre um item e outro
+=> `WHERE BETWEEN condicional1 (operadorLógico) condicional2;` - Faz a busca entre um item e outro
 ![[Pasted image 20240229220017.png]]
+
+=> `WHERE nomeDaColuna LIKE 'item;'` - Faz a busca se existe algum item naquele exato formato
+=> `WHERE nomeDaColuna NOT LIKE 'item;'` - Faz a busca se não existe algum item naquele exato formato
+![[Pasted image 20240303125713.png]]
+![[Pasted image 20240303125725.png]]
+
+### wildcard characters
+=> `item%` - A porcentagem no final significa que precisa ter qualquer coisa depois do item, inclusive nada
+=> `%item` - Significa que precisa ter qualquer coisa antes, inclusive nada
+=> `%item%` - Significa que precisa ter o item em qualquer lugar do campo
+
+=> `item_` - Precisa ter um item depois
+=> `_item` - Precisa ter um item antes
+
+
+
+=> `SELECT DISTINCT nomeDaColuna FROM nomeDaTabela;` - Busca todos os itens selecionados e retorna um exemplo de cada ignorando itens repetidos
+![[Pasted image 20240303125740.png]]
+
+
+=> `SELECT COUNT(item) FROM nomeDaTabela;` - Retorna  a soma dos itens
+![[Pasted image 20240303125754.png]]
+
+
+=> `SELECT MAX(item) FROM nomeDaTabela;` - Retorna o valor máximo da coluna passada
+=> `SELECT MIN(item) FROM nomeDaTabela;` - Retorna o valor mínimo da coluna passada
+![[Pasted image 20240303125822.png]]
+
+
+=> `SELECT SUM(item) FROM nomeDaTabela;` - Retorna a soma dos valores dos itens passados
+![[Pasted image 20240303125833.png]]
+
+=> `SELECT AVG(item) FROM nomeDaTabela;` - Retorna a média dos itens selecionados
+![[Pasted image 20240303125848.png]]
+
+### Agrupamento
+*Tem como objetivo retornar as pesquisas em grupos podendo fazer diversos filtros*
+
+=> `SELECT nomeDaColuna FROM nomeDaTabela GROUP BY nomeDaColuna;` - Podemos fazer uma seleção agrupando itens por uma coluna específica
+![[Pasted image 20240303125905.png]]
+
+==> `GROUP BY nomeDaColuna HAVING condicional...` - Utilizando o `having` podemos aplicar uma espécie de filtro a mais no agrupamento
+![[Pasted image 20240303125919.png]]
+
+=> `GROUP BY nomeDaColuna HAVING (condicionalCompleta)` - Também podemos fazer um filtro completo utilizando um `select` dentro do `having`.
+![[Pasted image 20240303125937.png]]
 
 #### Operadores Lógicos
 *Operados a serem utilizados dentro de uma condicional (WHERE)*
@@ -183,6 +229,7 @@ TinyBlob, Blob, MediumBlob, LongBlob
 => `<` - Menor
 => `<=` - Menor igual
 => `!=` - Diferente
-## Key Primary
-*São campos únicos que definem *
+=> `IS NULL` - Verifica se o valor ép null
+=> `IS NOT NULL` Verifica se o valor não é null
+
 

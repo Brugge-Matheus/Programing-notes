@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e20fd6667e21ac5",
+            "id": "d84c433f01619a8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Geral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f93f4af077bcc65d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Geral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8fa256892f6d0a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Geral.md",
+                "file": "SQL/JOIN'S.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Geral.md",
+                "file": "SQL/JOIN'S.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Geral.md",
+                "file": "SQL/JOIN'S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Geral.md"
+                "file": "SQL/JOIN'S.md"
               }
             }
           }
@@ -172,22 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10d898853db0f006",
+  "active": "d84c433f01619a8a",
   "lastOpenFiles": [
-    "source_geral/Pasted image 20240229220017.png",
-    "source_geral/Pasted image 20240229215741.png",
-    "source_geral/Pasted image 20240229215401.png",
-    "source_geral/Pasted image 20240229215148.png",
-    "Php_MyAdmin.md",
+    "source_geral/Pasted image 20240303161758.png",
+    "SQL/Modelo Relacional.md",
+    "SQL/JOIN'S.md",
+    "source_geral/Pasted image 20240303161656.png",
+    "source_geral/Pasted image 20240303161227.png",
+    "source_geral/Pasted image 20240303161144.png",
+    "source_geral/Pasted image 20240303160642.png",
+    "SQL/Php_MyAdmin.md",
     "SQL/Geral.md",
-    "source_geral/Pasted image 20240228141248.png",
-    "source_geral/Pasted image 20240228141130.png",
-    "source_geral/Pasted image 20240228140859.png",
-    "source_geral/Pasted image 20240228140342.png",
+    "source_geral/Pasted image 20240303141435.png",
+    "source_geral/Pasted image 20240303141012.png",
+    "source_geral/Pasted image 20240303140856.png",
+    "source_geral/Pasted image 20240303134100.png",
+    "Pasted image 20240303133707.png",
     "UPDATE, DELETE, TRUNCATE.md",
-    "source_geral/Pasted image 20240227211825.png",
-    "source_geral/Pasted image 20240227211806.png",
-    "source_geral/Pasted image 20240227211326.png",
     "JavaScript/Propriedades e JavaScript Moderno.md",
     "SQL",
     "JavaScript/Laços de repetição.md",
@@ -212,8 +188,6 @@
     "Css/Animações e estilos gerais.md",
     "Css/regras gerais.md",
     "JavaScript/Dom",
-    "Css/Layout.md",
-    "HTML/Tabelas/M1 C18 - Tag IMG.md",
     "HTML",
     "JavaScript"
   ]
