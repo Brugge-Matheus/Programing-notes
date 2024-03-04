@@ -82,3 +82,17 @@
 
 => `git clone https://github.com/Brugge-Matheus/(nome do repositório).git`
 
+
+## Tags
+
+=> `git tag -l` - Lista as tags existentes no projeto
+
+=> `git tag nomeDaTag códigoDoCommit` - Adicionar uma tag a um commit específico, caso não seja especificado o código do commit a tag ira para o
+
+
+## Branch de teste (staging)
+
+=> `git branch branchTeste` - Criar uma branch de teste e fazer as alterações
+
+=> `git push origin branchTeste` - Sobe as alterações somente para a branch de teste, caso não exista ainda ele cria ela no remoto
+

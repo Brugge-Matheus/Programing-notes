@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3034a06cb3328d75",
+        "id": "722ea504ae2a250b",
         "type": "tabs",
         "children": [
           {
-            "id": "61ef2c79ab1dd9db",
+            "id": "2646fe95746a0b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/Comandos.md",
+                "file": "PHP/Geral.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub/Como enviar um projeto no GitHub.md",
+                "file": "PHP/Geral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub/Como enviar um projeto no GitHub.md",
+                "file": "PHP/Geral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub/Como enviar um projeto no GitHub.md"
+                "file": "PHP/Geral.md"
               }
             }
           }
@@ -147,11 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10d898853db0f006",
+  "active": "2646fe95746a0b7d",
   "lastOpenFiles": [
-    "GitHub/Como atualizar um projeto.md",
-    "GitHub/Autenticação.md",
+    "PHP",
+    "PHP/Geral.md",
+    "NodeJs/Lógica geral.md",
+    "SQL/Geral.md",
     "GitHub/Comandos.md",
+    "GitHub/Autenticação.md",
+    "SQL/JOIN'S.md",
+    "GitHub/Como atualizar um projeto.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",
     "HTML/Tag A  (Internal).md",
@@ -170,11 +175,6 @@
     "HTML/TAG LINK (Favicon's).md",
     "HTML/TAG IMG.md",
     "HTML/TAG FORMS.md",
-    "HTML/TAG AUDIO.md",
-    "HTML/TAG A (External).md",
-    "HTML/TAG A (Download).md",
-    "HTML/Introduction.md",
-    "HTML/Geral.md",
     "source_geral/Pasted image 20240303161758.png",
     "source_geral/Pasted image 20240303161656.png",
     "source_geral/Pasted image 20240303161227.png",
