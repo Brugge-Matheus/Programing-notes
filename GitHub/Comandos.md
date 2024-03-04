@@ -77,3 +77,8 @@
 
 => Depois de resolver os conflitos faça commit das alterações
 
+
+## Clonando um projeto
+
+=> `git clone https://github.com/Brugge-Matheus/(nome do repositório).git`
+

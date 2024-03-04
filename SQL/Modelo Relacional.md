@@ -32,6 +32,8 @@
 ### Foreign Key (Chave Estrangeira)
 *Se trata de uma chave primária vinda de outro lugar*
 
+=> `FOREIGN KEY (novo_Nome_Da_Key) REFERENCES nome_Da_Tabela(PK_da_tabela)`
+
 ## Exemplos de relacionamento
 
 ### 1:1

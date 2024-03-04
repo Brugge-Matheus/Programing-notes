@@ -5,4 +5,3 @@
 5. `git commit -m "nome do commit"`
 6. `git push`
 
-![[Pasted image 20231227095011.png]]
