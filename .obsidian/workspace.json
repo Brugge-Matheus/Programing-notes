@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fcc832b71ff48cce",
+        "id": "3034a06cb3328d75",
         "type": "tabs",
         "children": [
           {
-            "id": "11a1dbb4e2e210dd",
+            "id": "61ef2c79ab1dd9db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 200
   },
   "right": {
     "id": "d8c563a207d94e7c",
@@ -147,19 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11a1dbb4e2e210dd",
+  "active": "61ef2c79ab1dd9db",
   "lastOpenFiles": [
-    "SQL/Atividade 1.md",
-    "SQL/Estrutura de dados.md",
+    "Pasted image 20240307225918.png",
+    "Pasted image 20240307225905.png",
+    "source_geral/Pasted image 20240307194645.png",
+    "source_geral/Pasted image 20240307194549.png",
     "SQL/Geral.md",
-    "SQL/JOIN'S.md",
-    "SQL/Modelo Relacional.md",
+    "SQL/Estrutura de dados.md",
+    "SQL/Atividade 1.md",
     "PHP/Geral.md",
-    "PHP",
-    "NodeJs/Lógica geral.md",
     "GitHub/Comandos.md",
-    "GitHub/Autenticação.md",
+    "SQL/Php_MyAdmin.md",
+    "SQL/Modelo Relacional.md",
+    "SQL/JOIN'S.md",
+    "PHP",
     "GitHub/Como atualizar um projeto.md",
+    "GitHub/Autenticação.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",
     "HTML/Tag A  (Internal).md",
@@ -175,7 +179,6 @@
     "HTML/TAG's &.md",
     "HTML/TAG VIDEO.md",
     "HTML/TAG TABLE.md",
-    "HTML/TAG LINK (Favicon's).md",
     "source_geral/Pasted image 20240303161758.png",
     "source_geral/Pasted image 20240303161656.png",
     "source_geral/Pasted image 20240303161227.png",
@@ -183,9 +186,6 @@
     "source_geral/Pasted image 20240303160642.png",
     "source_geral/Pasted image 20240303141435.png",
     "source_geral/Pasted image 20240303141012.png",
-    "source_geral/Pasted image 20240303140856.png",
-    "source_geral/Pasted image 20240303134100.png",
-    "Pasted image 20240303133707.png",
     "SQL",
     "NodeJs",
     "Untitled.canvas",

@@ -13,15 +13,76 @@
 
 => `<% %>` - Asp tag
 
-=> `short tag PHP` - Short tag PHP
+=> `#` - Short tag PHP
 
 
 ## Variáveis e constantes 
 *Dados que são guardados na memória*
 
-### Variável
+### Declaração de Variáveis e Constantes
 
-=> `$variavel = '#'`
+==> `$variavel = '#';` - Cria uma variável
 
-### Constantes
+==> `const constante = '#';` - Cria uma constante
 
+![[Pasted image 20240307194549.png]]
+
+==> `var_dump();` - Mostra o tipo de uma variável
+
+=> `(type)` - Podemos definir o tipo de uma variável, porem o Php permite trocas e não gera erros
+
+![[Pasted image 20240307194645.png]]
+
+### regras
+=> Variáveis sempre começam com o símbolo `$`
+=> O segundo caractere pode ser letra ou símbolo `_`
+=> O terceiro caractere pode ser [a-z], [A-Z]. [0-9] e [_]
+=> A linguagem é case sensitive
+=> nomes especiais como $this não podem ser usados
+
+
+## Tipos Primitivos
+**
+
+### Escalares
+
+=> *String* - Sequência de letras, números e símbolos, sempre representadas entre ""
+
+=> *Int ou integer* - Valor numérico inteiro, sem a parte decimal
+
+=> *Float* - Valor numérico real que possui a parte decimal
+
+=> *boolean* - Valor lógico que aceita apenas dois valores (true ou false)
+
+
+### Compostos
+
+=> *Array* - Um array em PHP é uma estrutura de dados que armazena múltiplos valores sob um único nome, acessíveis por índices
+
+=> *Object* - Em PHP, um objeto é uma instância de uma classe que encapsula dados e comportamentos relacionados, permitindo a criação de estruturas mais complexas e reutilizáveis em programas.
+
+### Especiais
+
+=> *Null* - Em PHP, null é um valor especial que indica a ausência de um valor ou a falta de uma referência válida para uma variável
+
+=> *Resource* -   
+Em PHP, resource é um tipo de dado especial que representa um recurso externo, como uma conexão de banco de dados.
+
+=> *Callabe* - Em PHP, "callable" é um tipo de dado que representa uma função ou método que pode ser chamado diretamente. Isso inclui funções
+
+=> *Mixed* - Em PHP, mixed é um tipo de dado que indica que uma variável pode conter múltiplos tipos de valores,
+
+
+## Manipulação de Strings
+
+=> `.` Concatenar strings
+
+### Double quoted ("")
+*Existe a interpretação do conteúdo*
+
+![[Pasted image 20240307225905.png]]
+
+### Single quoted ('')
+*Não existe interpretação de conteúdo*
+
+![[Pasted image 20240307225918.png]]
