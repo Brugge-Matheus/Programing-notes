@@ -80,9 +80,37 @@ Em PHP, resource é um tipo de dado especial que representa um recurso externo, 
 ### Double quoted ("")
 *Existe a interpretação do conteúdo*
 
+#### Sequência de escape
+*Serve para escapar itens e símbolos
+
+=> `\"variavel"\` - Permite a utilização de uma variável mesmo com a utilização das aspas simples
+
+=> `/n` - Nova linha
+=> `/t` - Tabulação horizontal (tab.)
+=> `//` - Exibir barra invertida
+=> `/$` - Mostrar cifrão na tela
+=> `/u{}` - Utilizar símbolos
+
 ![[Pasted image 20240307225905.png]]
 
 ### Single quoted ('')
 *Não existe interpretação de conteúdo*
 
 ![[Pasted image 20240307225918.png]]
+
+
+### String Heredoc
+**Uma maneira alternativa de apresentar strings interpretando conteúdo**
+
+=> Utilizando `<<<` e depois alguma palavra qualquer entre aspas simples, depois fechando com a mesma palavra e um ponto e virgula, todo o texto adicionado entre os dois itens será apresentado.
+
+![[Pasted image 20240314234518.png]]
+
+
+
+### String Nowdoc
+*Uma maneira alternativa de apresentar strings não interpretando conteúdo*
+
+=> Utilizando `<<<` e depois alguma palavra qualquer entre aspas simples, depois fechando com a mesma palavra e um ponto e virgula, todo o texto adicionado entre os dois itens será apresentado.
+
+![[Pasted image 20240314234558.png]]
