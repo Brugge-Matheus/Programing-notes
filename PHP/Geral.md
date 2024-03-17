@@ -114,3 +114,85 @@ Em PHP, resource é um tipo de dado especial que representa um recurso externo, 
 => Utilizando `<<<` e depois alguma palavra qualquer entre aspas simples, depois fechando com a mesma palavra e um ponto e virgula, todo o texto adicionado entre os dois itens será apresentado.
 
 ![[Pasted image 20240314234558.png]]
+
+
+## Obtendo dados de formulário
+*#*
+
+### Variáveis super global
+*Variáveis que irão funcionar independentemente da situação*
+
+=> `$_GET` - Recebe os dados enviados e mostra na Url
+=> `$_POST` - Recebe os dados enviados escondendo na Url
+=> `$_REQUEST` - Aceita tanto dados Post quanto Get
+
+### Submit
+
+=> `action = ""` - Definindo o `action` em um formulários é possível definir o destino de um `Submit`
+
+![[Pasted image 20240317171743.png]]
+
+
+### Capturar dados do formulário
+
+=> `$_GET["nameDoInput"]` - Dessa forma podemos capturar dados enviados em um input 
+
+![[Pasted image 20240317171902.png]]
+
+
+### Operador de coalescência nula
+
+=> `??` - Define um valor padrão quando as informações não são passadas
+
+![[Pasted image 20240317172114.png]]
+
+
+
+## Aritmética
+
+
+### Ordem de precedência
+*Define a ordem com que as operações aritméticas serão resolvidas*
+
+----> `()` - Será sempre priorizado oque estiver dentro dos parênteses 
+
+---> `**` - Potência
+
+--> `* / %` - Multiplicação e Divisão
+
+-> `+ -` - Adição e Subtração
+
+### Funções aritméticas
+
+=> `abs()` - Retorna o valor absoluto 
+
+==> `base_convert()` - Converte em base decimal, octal e hexadecimal 
+=> Ex: `base_convert(254, 10, 8)`
+
+=> `ceil(), floor(), round()` - Arredonda respectivamente em para cima, para baixo e arredondamento aritmético 
+
+=> `hypost()` - Calcula a hipotenusa
+
+=> `intdiv()` - Retorna a divisão inteira
+
+=> `min(), max()` - Retorna o valor mínimo e máximo de uma sequencia 
+
+=> `pi() ou M_PI` - Retorna o lugar de `pi`
+
+=> `pow()` - Retorna a potência
+
+=> `sin(), cos(), tan()` - Retorna o seno, cosseno e tangente
+
+=> `sqrt()` - Retorna a raiz quadrada de um número
+
+
+### Operadores Aritméticos
+
+=> `+` - Adição
+=> `-` - Subtração
+=> `*` - Multiplicação
+=> `/` - Divisão
+=> `%` - Módulo de uma divisão inteira
+=> `**` - Exponenciação
+
+
