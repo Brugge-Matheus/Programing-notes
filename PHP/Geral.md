@@ -186,6 +186,13 @@ Em PHP, resource é um tipo de dado especial que representa um recurso externo, 
 => `sqrt()` - Retorna a raiz quadrada de um número
 
 
+==> `rand(min, max)` - Passando o número mínimo depois o número máximo ele retorna um número aleatório entre eles
+
+=> `mt_rand(min, max)` - Maneira mais atualizada de gerar números aleatórios
+
+=> `random_int(min, max)` - Maneira mais "lerda" de gerar, porem os números são criptografados 
+
+
 ### Operadores Aritméticos
 
 => `+` - Adição
