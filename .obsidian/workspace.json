@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61ef2c79ab1dd9db",
+            "id": "67f01f20ad71cb50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/Geral.md",
+                "file": "Css/Responsividade.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8c563a207d94e7c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/Geral.md",
+                "file": "Css/Responsividade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/Geral.md",
+                "file": "Css/Responsividade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/Geral.md"
+                "file": "Css/Responsividade.md"
               }
             }
           }
@@ -149,12 +150,15 @@
   },
   "active": "10d898853db0f006",
   "lastOpenFiles": [
+    "Css/Medidas.md",
+    "Css/Responsividade.md",
+    "PHP/Geral.md",
+    "GitHub/Autenticação.md",
     "source_geral/Pasted image 20240317172114.png",
     "source_geral/Pasted image 20240317171902.png",
     "source_geral/Pasted image 20240317171743.png",
     "source_geral/Pasted image 20240314234558.png",
     "Pasted image 20240314234417.png",
-    "PHP/Geral.md",
     "source_geral/Pasted image 20240314234518.png",
     "source_geral/Pasted image 20240307225918.png",
     "source_geral/Pasted image 20240307225905.png",
@@ -169,7 +173,6 @@
     "SQL/JOIN'S.md",
     "PHP",
     "GitHub/Como atualizar um projeto.md",
-    "GitHub/Autenticação.md",
     "GitHub/Como enviar um projeto no GitHub.md",
     "GitHub/Como restaurar um arquivo deletado no repositório.md",
     "HTML/Tag A  (Internal).md",
@@ -184,8 +187,6 @@
     "HTML/Tag's DIV & SPAN.md",
     "HTML/TAG's &.md",
     "HTML/TAG VIDEO.md",
-    "HTML/TAG TABLE.md",
-    "source_geral/Pasted image 20240303161758.png",
     "SQL",
     "NodeJs",
     "Untitled.canvas",

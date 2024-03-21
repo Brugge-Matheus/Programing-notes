@@ -203,3 +203,9 @@ Em PHP, resource é um tipo de dado especial que representa um recurso externo, 
 => `**` - Exponenciação
 
 
+## Chamada de API
+
+### Básico
+
+
+
